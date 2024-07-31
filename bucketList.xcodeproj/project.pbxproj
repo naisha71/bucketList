@@ -14,6 +14,8 @@
 		BD1C38CF2C58FB7000B973A4 /* bucketListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38CE2C58FB7000B973A4 /* bucketListTests.swift */; };
 		BD1C38D92C58FB7000B973A4 /* bucketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38D82C58FB7000B973A4 /* bucketListUITests.swift */; };
 		BD1C38DB2C58FB7000B973A4 /* bucketListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38DA2C58FB7000B973A4 /* bucketListUITestsLaunchTests.swift */; };
+		BD1C38EA2C58FC1D00B973A4 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38E92C58FC1D00B973A4 /* NewToDoView.swift */; };
+		BD1C38F22C590BAB00B973A4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1C38F12C590BAB00B973A4 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BD1C38D42C58FB7000B973A4 /* bucketListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bucketListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1C38D82C58FB7000B973A4 /* bucketListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketListUITests.swift; sourceTree = "<group>"; };
 		BD1C38DA2C58FB7000B973A4 /* bucketListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD1C38E92C58FC1D00B973A4 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD1C38F12C590BAB00B973A4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BD1C38BD2C58FB6E00B973A4 /* bucketListApp.swift */,
 				BD1C38BF2C58FB6E00B973A4 /* ContentView.swift */,
+				BD1C38E92C58FC1D00B973A4 /* NewToDoView.swift */,
+				BD1C38F12C590BAB00B973A4 /* ToDoItem.swift */,
 				BD1C38C12C58FB6F00B973A4 /* Assets.xcassets */,
 				BD1C38C32C58FB6F00B973A4 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1C38EA2C58FC1D00B973A4 /* NewToDoView.swift in Sources */,
 				BD1C38C02C58FB6E00B973A4 /* ContentView.swift in Sources */,
+				BD1C38F22C590BAB00B973A4 /* ToDoItem.swift in Sources */,
 				BD1C38BE2C58FB6E00B973A4 /* bucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
