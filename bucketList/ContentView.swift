@@ -59,7 +59,7 @@ struct ContentView: View {
                                             .foregroundColor(Color(hue: 0.956, saturation: 0.904, brightness: 0.387))
                                         Spacer()
                                         Text("‼️")
-                                        //Text("\(toDoItem.timestamp, format:Data.FormatStyle(data:.numeric, time: .shortened))"))
+                                        //Text("\(toDoItem.timestamp, format:Data.FormatStyle(data:.numeric)"))
                                     }
                                 }
                                 
@@ -69,7 +69,7 @@ struct ContentView: View {
                                         .font(.title3)
                                         .fontWeight(.medium)
                                         .foregroundColor(Color(hue: 0.956, saturation: 0.904, brightness: 0.387))
-                                    //Text("\(toDoItem.timestamp, format:Data.FormatStyle(data:.numeric, time: .shortened))"))
+                                    //Text("\(toDoItem.timestamp, format:Data.FormatStyle(data:.numeric)"))
                                 }
                             }
                             
